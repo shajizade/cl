@@ -20,8 +20,8 @@ abc2362b9b50 "/docker-entrypoint.…"
 ```
 > docker ps | cl 1 2 3
 CONTAINER ID IMAGE
-abc2362b9b50 repo.snappfood.dev/nginx:alpine "/docker-entrypoint.…"
-800da717008b snappfood-serializer_fpm "docker-php-entrypoi…"
+abc2362b9b50 repo.dev/nginx:alpine "/docker-entrypoint.…"
+800da717008b sfpm "docker-php-entrypoi…"
 ```
 
 Here is another sample, a command to kill all the processes have 'saeed' in theire name:
