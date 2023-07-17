@@ -2,7 +2,11 @@
 Simple Bash Column Splitter
 
 ## Installation
-Donwload `cl` file and put it in somewhere included in your `PATH` (like `/usr/local/bin`)
+Donwload `cl` file and put it in somewhere included in your `PATH` (like `/usr/local/bin`). You may use this:
+```
+sudo curl https://raw.githubusercontent.com/shajizade/cl/main/cl | sudo tee /usr/local/bin/cl
+sudo chmod +x /usr/local/bin/cl
+```
 
 ## Usage
 This bash script get column numbers as its parameters, split `stdin` by its white spaces, put mentioned columns in `stdout`. It's a simplified `awk` command that only split columns and return them.
